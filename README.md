@@ -68,7 +68,7 @@ This project applies a complete Natural Language Processing pipeline to **5,000 
 ### Fig 1: Biomedical Abstract Clustering (PCA)
 5 semantically distinct clusters identified from 5,000 abstracts using sentence embeddings + K-Means. PCA reduces 384-dimensional embedding space to 2D for visualization.
 
-![Fig 1: Clustering](figures/fig1.png)
+![Fig 1: Clustering](fig1.png)
 
 ### Fig 2: Knowledge Graph
 Directed graph showing medical entity relationships extracted by zero-shot classification. Nodes = medical entities, edges = relation type (associated_with, causes, treats, reduces_risk).

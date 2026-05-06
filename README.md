@@ -73,7 +73,7 @@ This project applies a complete Natural Language Processing pipeline to **5,000 
 ### Fig 2: Knowledge Graph
 Directed graph showing medical entity relationships extracted by zero-shot classification. Nodes = medical entities, edges = relation type (associated_with, causes, treats, reduces_risk).
 
-![Fig 2: Knowledge Graph](figures/fig2.png)
+![Fig 2: Knowledge Graph](fig2.png)
 
 ### Fig 3: Top Entities
 Most frequent biomedical entities extracted by the NER model from 1,000 abstracts.
@@ -89,17 +89,17 @@ Most frequent biomedical entities extracted by the NER model from 1,000 abstract
 | 7 | induced | 95 | Drug-induced arrhythmia |
 | 8 | hospital | 94 | Clinical setting |
 
-![Fig 3: Top Entities](figures/fig3.png)
+![Fig 3: Top Entities](fig3.png)
 
 ### Fig 4: Cluster Distribution
 Balanced cluster sizes (~900–1,100 docs each) confirm the K-Means model found genuine semantic structure rather than one dominant topic.
 
-![Fig 4: Cluster Distribution](figures/fig4.png)
+![Fig 4: Cluster Distribution](fig4.png)
 
 ### Fig 5: Relation Types
 Distribution of extracted biomedical relations. `associated_with` dominates (100 instances), followed by `causes` (31), `treats` (14), and `reduces_risk` (6).
 
-![Fig 5: Relation Types](figures/fig5.png)
+![Fig 5: Relation Types](fig5.png)
 
 ---
 
